@@ -1,0 +1,24 @@
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant:small-caps;
+    font-stretch:expanded; 
+
+    letter-spacing: 1rem;
+    word-spacing: 3rem;
+
+    line-height: 2;
+    text-transform: capitalize;
+
+    text-decoration: underline overline line-through dashed rebeccapurple;
+
+    text-align: justify;
+
+    text-shadow: 
+        10px 10px 1px rebeccapurple,
+        5px 5px 1px royalblue; /*offsetx offsety blur-radius color*/
+
+    /*shorthand = font: style, variant(opcional), weight(opcional), stretch (opcional), size/line-height , font-family*/
+}

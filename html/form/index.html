@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><form action=""></form></title>
+</head>
+<body>
+    <form action="">    
+        <datalist id="fruitsData">
+            <option>apple</option>
+            <option>orange</option>
+            <option>banana</option>
+        </datalist>
+        <fieldset name="metodo1">
+            <legend>Legenda</legend>
+            <label>
+                input
+                <input type="text" list="fruitsData"
+                placeholder="choose a fruit">
+                <button>submit</button>
+            </label>
+        </fieldset>
+    </form>
+
+
+
+    <form id="f2" action=""></form>
+
+    <fieldset name="metodo2" form="f2">
+        <legend>Método 2</legend>
+
+        <label for="i2">input2</label>
+
+        <input id="i2" type="color" list="colorsData">
+
+        <button>submit</button>
+
+    </fieldset>
+
+    <datalist id="colorsData">
+        <option>#ff0000</option>
+        <option>#00ff00</option>
+        <option>#0000ff</option>
+    </datalist>
+    
+        
+        
+        <!--para inputs tipo file:-->
+    <form action="" method="post" enctype="multipart/form-data">
+        <input type="file" name="" id="">
+    </form>
+    
+    
+    
+    <!--checkbox-->
+    <form action="">
+        <fieldset>
+            <legend>choose yours interests</legend>
+            <div>
+                <input type="checkbox" name="interests" id="music">
+
+                <label for="music">Music</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="interests" id="coding">
+                
+                <label for="coding">Coding</label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

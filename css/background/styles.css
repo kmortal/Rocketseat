@@ -1,0 +1,20 @@
+*{ margin: 0; }
+
+main{
+	background-color: rgb(120, 210, 201);
+	background-image: url(https://pbs.twimg.com/profile_images/983018479644303361/UD5uocVf_400x400.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain; 
+	background-origin: content-box;
+	background-clip: content-box;	
+	background-attachment: fixed;
+	
+
+    /*shorthand*/
+	 background: rgb(120, 210, 201) url(https://pbs.twimg.com/profile_images/983018479644303361/UD5uocVf_400x400.jpg) no-repeat center / contain content-box content-box fixed;
+	
+	 /*background em forma de gradiente*/
+	background: linear-gradient(270deg, red, blue, pink);
+	background: radial-gradient(pink,blue, red);
+}

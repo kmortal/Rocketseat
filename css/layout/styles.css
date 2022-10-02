@@ -1,0 +1,100 @@
+.position{
+    margin-top: 100px;
+    border: 6px solid red;
+    position: relative;
+}
+
+.boxPosition{
+    margin: 6px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.box1{
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    position: fixed;/*+5 propriedades disponíveis com position != de static (relative, absolute ou fixed)*/
+    left: 300px;
+    top: 0;
+    z-index: -1;
+}
+
+.box2{
+    background-color: cornflowerblue;
+    z-index: 0;
+}
+
+.box3{
+    background-color: cyan;
+    position: relative;
+    z-index: 1; /*eixo z (camadas, profundidade)*/
+    left: 150px;
+    bottom: 30px;
+}
+
+.flex{
+    margin-top: 100px;
+    border: 6px solid darkgoldenrod;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.boxFlex{
+    margin: 6px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid darkgoldenrod;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+}
+
+.green{
+    background-color: green;
+}
+
+.grid{
+    margin-top: 100px;
+    border: 6px solid darkslategrey;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: /*cada string é uma linha, nome = grid-area*/
+    "header header"
+    "main aside"
+    "footer footer"; 
+    grid-template-rows: 90px 1fr 90px;
+    grid-template-columns: 1fr 90px;
+}
+
+.boxGrid{
+    margin: 6px;
+    border: 1px solid darkslategray;
+}
+
+.yellow{
+    background-color: yellow;
+    grid-area: header;
+}
+
+.orange{
+    background-color: orange;
+    grid-area: main;
+}
+
+.brown{
+    background-color: brown;
+    grid-area: aside;
+}
+
+.pink{
+    background-color: pink;
+    grid-area: footer;
+}
