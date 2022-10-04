@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    gap: .8rem
+}
+
+div{
+    border: 1px solid red;
+}
+
+div div, div~div, button{
+    border: 1px solid blue;
+}
+
+div div:nth-of-type(1){
+    flex-grow: 1;
+}
+
+

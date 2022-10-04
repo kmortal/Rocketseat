@@ -1,0 +1,13 @@
+div{
+    height: 90vh;
+    display:flex;
+    border: 1px solid red;
+    align-items: flex-end;
+}
+
+footer{
+    height: 8rem;
+    border: 1px solid blue;
+    flex-grow: 1;
+    text-align: center;
+}

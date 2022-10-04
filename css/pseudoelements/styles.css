@@ -1,0 +1,11 @@
+li::before{
+    content: '<'; /*content é obrigatório*/
+}
+
+li::after{
+    content: '>'; /*content é obrigatório*/
+}
+
+li:nth-of-type(2):first-line{
+  font-weight: bold;  
+}

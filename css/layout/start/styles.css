@@ -98,3 +98,11 @@
     background-color: pink;
     grid-area: footer;
 }
+
+.float{
+    border: 6px solid greenyellow;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    float: right; /*num novo elemento, temos que limpar o float para não sobrescrever*/
+}

@@ -1,0 +1,20 @@
+div{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 500px;
+}
+
+aside, main{
+    border: 1px solid red;
+    height: 75vh;
+}
+
+main{
+    flex-grow: 75;
+}
+
+aside{
+    flex-grow: 25;
+}

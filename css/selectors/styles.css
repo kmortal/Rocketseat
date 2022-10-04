@@ -1,0 +1,27 @@
+article, section{ /*selector*/
+	border: 1px solid black;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+p + footer{ /*sibling combinator*/
+    border: 1px solid green;
+}
+
+article aside{ /*combinator*/
+	border: 1px solid red;
+}
+
+section > h6{ /*child combinator*/
+    border: 1px solid blue;
+}
+
+header + p{ /*adjacent sibling combinator*/
+    border: 1px solid orange;
+}
+
+p ~ p {/*general sibling combinator*/
+    border: 1px solid orangered;
+}

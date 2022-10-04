@@ -1,0 +1,28 @@
+article header:first-child, section h1:first-child{
+    border: 1px solid gold;
+}
+
+article p:nth-of-type(2){
+    border: 1px solid blue;
+}
+
+article p:nth-child(2){
+    border: 1px solid green;
+}
+
+section p:nth-child(odd){
+    border: 1px solid pink;
+}
+
+section p:nth-child(even){
+    border: 1px solid red;
+}
+
+h1:hover{
+    color: blue;
+}
+
+input:focus{
+    border-color: brown;
+    outline: none;
+}
