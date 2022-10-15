@@ -1,0 +1,15 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "learning",
+    "node package manager"
+  ],
+  "author": "km0rtal",
+  "license": "robamo"
+}

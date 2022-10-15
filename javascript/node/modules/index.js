@@ -1,0 +1,1 @@
+console.log('Script rodado via package.json')

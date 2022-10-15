@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<%- include('../partials/head') %>
+<style>
+    footer{
+        position: absolute;
+        top: 91.5vh;
+        padding-bottom: 2px;
+    }
+</style>
+<body>
+    <%- include('../partials/header')%>
+    <main> 
+        <article>
+            <h3>Como manipular o HTML pelo JS?</h3>
+            <p>Nesse curso vou aprender mais sobre JS. Parece ser um passo a mais para a compreensão do react.</p>
+        </article>
+
+    </main>
+
+    <ul>
+        <% text.forEach((brink)=>{ %>
+        <li>
+            <strong><%=brink.title%></strong><%= brink.message%>
+        </li>
+       <% }) %>
+    </ul>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>
