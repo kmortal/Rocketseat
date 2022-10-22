@@ -1,13 +1,14 @@
-# Ignorância
+# Desenvolvimento
 
-### Infelizmente, tive um erro ao realizar essa parte do curso.
-### O firefox bloqueou o meu acesso a API por questões de segurança.
-### Pela atual ignorância minha, apesar das pesquisas sobre o CORS,
-### as tentativas de reescrever o código a minha maneira,
-### e outros métodos como usar o ip da máquina na URL e etc, não resolvi.
+### Testei, mais uma vez,
+### o método de chamar a url da api
+### pelo numero do ip da minha máquina.
 
-### 2 dias quebrando a cabeça com esse problema e, infelizmente, vou passá-lo para o futuro.
+### Dessa vez deu tudo certo. 
+### Eu tinha baixado a node_modules
+### na pasta errada...
+### E, mais um detalhe, a porta do 
+### live server era 5500, a mesma que
+### a da API, isso tbm estava dando erro.
 
-## Foco no desenvolvimento...
-
-# API, Fetch, Axios
+# Enfim, paz.
