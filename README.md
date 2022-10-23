@@ -1,5 +1,5 @@
-# Web
+# Desenvolvimento Web
 
-#### Continuando os estudos sobre desenvolvimento web
+#### Finalizando os estudos sobre desenvolvimento web
 
 ### Fonte: Rocketseat
