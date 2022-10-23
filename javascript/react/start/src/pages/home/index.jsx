@@ -4,7 +4,7 @@ import './styles.css'
 import {Card} from '../../components/Card'
 
 export function Home() {
-  const [convidedName, setConvidedName] = useState('Digite o nome')
+  let [convidedName, setConvidedName] = useState('Digite o nome')
   const [convideds, setConvideds] = useState([])
 
   function handleConvided(){
