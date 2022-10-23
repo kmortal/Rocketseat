@@ -2,4 +2,15 @@
     margin: 10px;
     padding: 0;
     box-sizing: content-box;
+    background-color: rgb(187, 186, 186);
+    font-family: 'Gentium Book Plus', serif;
 }
+
+body, button, input{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
